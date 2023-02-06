@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.shoa.base</groupId>
+    <artifactId>sso-keycloak</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+
+
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+
+    </properties>
+
+
+
+
+
+    <repositories>
+        <repository>
+            <id>zjgeobigdata-releases</id>
+            <!--指向仓库类型为host(宿主仓库）的储存类型为Snapshot的仓库-->
+            <url>http://nexus.zjgeobigdata.cn:8081/repository/java-releases/</url>
+        </repository>
+        <repository>
+            <id>zjgeobigdata-snapshots</id>
+            <!--指向仓库类型为host(宿主仓库）的储存类型为Snapshot的仓库-->
+            <url>http://nexus.zjgeobigdata.cn:8081/repository/java-snapshots/</url>
+        </repository>
+    </repositories>
+
+</project>
